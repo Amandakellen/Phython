@@ -159,6 +159,14 @@ while ganhou == False and jogadas != 9:
         continue
 
 if ganhador != 'nenhum':
+    for linha in range(3):
+        for coluna in range(3):
+            print("%c" % jogo[linha][coluna], end='')
+        print()
     print('O ganhador foi o ', ganhador)
 else:
+    for linha in range(3):
+        for coluna in range(3):
+            print("%c" % jogo[linha][coluna], end='')
+        print()
     print('O jogo deu empate!')
