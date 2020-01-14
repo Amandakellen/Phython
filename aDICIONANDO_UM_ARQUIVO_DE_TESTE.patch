@@ -1,0 +1,10 @@
+Index: teste.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- teste.py	(date 1578481366194)
++++ teste.py	(date 1578481366194)
+@@ -0,0 +1,1 @@
++#teste
+\ No newline at end of file
