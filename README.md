@@ -2,8 +2,12 @@
 
 Este diretório contém alguns projetos em phython,sendo eles:
  
- *Jogo da velha
+ *Jogo da velha;
  
  
  
- *Exercício de dicionário em Phython
+ *Exercício de dicionário;
+ 
+ 
+ 
+ *Exercício de Arquivos;
