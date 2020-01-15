@@ -11,7 +11,7 @@ Eles querem que você crie um script que exiba o seguinte menu:
 
 Onde a professora que vai fornecer o nome e nota dos alunos. Quantos ela quiser. Quantas vezes quiser.
 Implemente esse script usando um dicionário.'''
-notas = {'Amanda': 100}
+notas = {}
 print('Selecione a opção desejada:\n')
 opção = int(input(
     '0.Sair\n1.Exibir lista de alunos com suas notas (cada aluno tem uma nota)\n2. Inserir aluno e nota\n3. Alterar a nota de um aluno\n4. Consultar nota de um aluno específico\n5. Apagar um aluno da lista\n6. Dar a média da turma\n'))
