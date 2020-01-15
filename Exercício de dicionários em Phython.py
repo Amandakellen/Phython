@@ -123,3 +123,4 @@ while opção != 0:
         opção = int(input(
             '0.Sair\n1.Exibir lista de alunos com suas notas (cada aluno tem uma nota)\n2. Inserir aluno e nota\n3. Alterar a nota de um aluno\n4. Consultar nota de um aluno específico\n5. Apagar um aluno da lista\n6. Dar a média da turma\n'))
 print()
+
