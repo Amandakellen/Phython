@@ -23,8 +23,7 @@ else:
 
     for i in range(len(meuArquivo)):
 
-        if meuArquivo[i] == "200.135.80.9\n" or meuArquivo[i] == "192.168.1.1\n" or meuArquivo[i] == "8.35.67.74\n" or \
-                meuArquivo[i] == "1.2.3.4\n":
+        if meuArquivo[i] == "200.135.80.9\n":
             if cont == 0:
                 endereços_validos = open('endereços_validos.txt', 'w')
                 endereços_validos.write(meuArquivo[i])
@@ -32,10 +31,10 @@ else:
             else:
                 endereços_validos = open('endereços_validos.txt', 'a')
                 endereços_validos.write(meuArquivo[i])
+                endereços_validos.close()
             cont += 1
 
-        elif meuArquivo[i] == "257.32.4.5\n" or meuArquivo[i] == "85.345.1.2\n" or meuArquivo[i] == "9.8.234.5\n" or \
-                meuArquivo[i] == "192.168.0.256\n":
+        elif meuArquivo[i] == "257.32.4.5\n":
             if cont2 == 0:
                 endereços_invalidos = open('endereços_validos.txt', 'w')
                 endereços_invalidos.write(meuArquivo[i])
@@ -43,6 +42,7 @@ else:
             else:
                 endereços_invalidos = open('endereços_validos.txt', 'a')
                 endereços_invalidos.write(meuArquivo[i])
+                endereços_invalidos.close()
             cont2 += 1
-# endereços_validos.close()
-# endereços_invalidos.close()
+endereços_validos.close()
+endereços_invalidos.close()
