@@ -47,3 +47,4 @@ else:
             cont2 += 1
 endereços_validos.close()
 endereços_invalidos.close()
+meuArquivo.close()
