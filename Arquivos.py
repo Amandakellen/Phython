@@ -36,6 +36,7 @@ else:
 
         elif arq[i] == "257.32.4.5\n" or arq[i] == "85.345.1.2\n" or arq[i] == "9.8.234.5\n" or arq[
             i] == "192.168.0.256\n":
+
             if cont2 == 0:
                 endereços_invalidos = open('endereços_invalidos.txt', 'w')
                 endereços_invalidos.write(arq[i])
@@ -47,3 +48,4 @@ else:
             cont2 += 1
 endereços_validos.close()
 endereços_invalidos.close()
+meuArquivo.close()
