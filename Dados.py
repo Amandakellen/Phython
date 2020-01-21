@@ -12,7 +12,8 @@ class dado:
 
 op = 1
 dado = dado()
+print('Lançamento de dados')
 while op == 1:
     j = dado.lançar()
-    print('O número sorteado foi : ', j)
+    print('O resultado do lançamento do dado foi : ', j)
     op = int(input('Deseja jogar novamente?\n1.Sim \n0.Não\n'))
