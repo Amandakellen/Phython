@@ -11,3 +11,5 @@ Este diretório contém alguns projetos em phython,sendo eles:
  
  
  *Exercício de Arquivos;
+ 
+ *Jogo de dados
