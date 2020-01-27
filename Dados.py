@@ -17,3 +17,4 @@ while op == 1:
     j = dado.lançar()
     print('O resultado do lançamento do dado foi : ', j)
     op = int(input('Deseja jogar novamente?\n1.Sim \n0.Não\n'))
+
