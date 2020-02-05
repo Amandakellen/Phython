@@ -1,6 +1,6 @@
-# Phython
+# Python
 
-Este diretório contém alguns projetos em phython,sendo eles:
+Este diretório contém alguns projetos em python,sendo eles:
  
  *Jogo da velha;
  
